@@ -130,7 +130,6 @@ if __name__ == "__main__":
     purchase_options = data["source"]
     categories = set(data["category"])
     purchase_dict = {option: {} for option in purchase_options}
-    print(purchase_dict)
 
     country_map = prepare_country_data(purchase_dict)
 
